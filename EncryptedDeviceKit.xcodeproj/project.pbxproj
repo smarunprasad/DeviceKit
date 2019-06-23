@@ -10,6 +10,7 @@
 		F488DFBA22C0251D00BBC105 /* EncryptedDeviceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F488DFB022C0251D00BBC105 /* EncryptedDeviceKit.framework */; };
 		F488DFBF22C0251D00BBC105 /* EncryptedDeviceKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488DFBE22C0251D00BBC105 /* EncryptedDeviceKitTests.swift */; };
 		F488DFC122C0251D00BBC105 /* EncryptedDeviceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F488DFB322C0251D00BBC105 /* EncryptedDeviceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F488DFCB22C027DE00BBC105 /* EncryptedDeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488DFCA22C027DE00BBC105 /* EncryptedDeviceInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		F488DFB922C0251D00BBC105 /* EncryptedDeviceKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncryptedDeviceKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F488DFBE22C0251D00BBC105 /* EncryptedDeviceKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptedDeviceKitTests.swift; sourceTree = "<group>"; };
 		F488DFC022C0251D00BBC105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F488DFCA22C027DE00BBC105 /* EncryptedDeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptedDeviceInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				F488DFB322C0251D00BBC105 /* EncryptedDeviceKit.h */,
 				F488DFB422C0251D00BBC105 /* Info.plist */,
+				F488DFCA22C027DE00BBC105 /* EncryptedDeviceInfo.swift */,
 			);
 			path = EncryptedDeviceKit;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					F488DFAF22C0251D00BBC105 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					F488DFB822C0251D00BBC105 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F488DFCB22C027DE00BBC105 /* EncryptedDeviceInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +346,7 @@
 		F488DFC522C0251D00BBC105 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +364,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Home.EncryptedDeviceKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +373,7 @@
 		F488DFC622C0251D00BBC105 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +399,7 @@
 		F488DFC822C0251D00BBC105 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QZXD2F9AJ3;
 				INFOPLIST_FILE = EncryptedDeviceKitTests/Info.plist;
@@ -409,6 +418,7 @@
 		F488DFC922C0251D00BBC105 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QZXD2F9AJ3;
 				INFOPLIST_FILE = EncryptedDeviceKitTests/Info.plist;
