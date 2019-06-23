@@ -66,6 +66,7 @@ extension EncryptedDeviceInfo {
     open func getEncryptedCurrentDeviceData(completionBlock: (Data) -> Void, errorBlock: (Error) -> Void) {
         
         do {
+            //It returns the device data in encrypted formate.
             let encrptedData = try self.encryptedDeviceInfo()
             completionBlock(encrptedData)
         } catch  {
@@ -76,6 +77,7 @@ extension EncryptedDeviceInfo {
     open func getDecryptedCurrentDeviceData(encrptedData:Data, completionBlock: (Data) -> Void, errorBlock: (Error) -> Void) {
         
         do {
+            //It returns the decrypted data for the given encrptedData
             let decrptedData = try self.decrypt(encrptedData)
             completionBlock(decrptedData)
         } catch  {
