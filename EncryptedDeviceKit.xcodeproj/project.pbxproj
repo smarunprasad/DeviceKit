@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F488DFBA22C0251D00BBC105 /* EncryptedDeviceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F488DFB022C0251D00BBC105 /* EncryptedDeviceKit.framework */; };
 		F488DFBF22C0251D00BBC105 /* EncryptedDeviceKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488DFBE22C0251D00BBC105 /* EncryptedDeviceKitTests.swift */; };
 		F488DFC122C0251D00BBC105 /* EncryptedDeviceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F488DFB322C0251D00BBC105 /* EncryptedDeviceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F488DFCB22C027DE00BBC105 /* EncryptedDeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488DFCA22C027DE00BBC105 /* EncryptedDeviceInfo.swift */; };
+		F4E864AE22C0E41F0002D3E0 /* EncryptedDeviceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F488DFB022C0251D00BBC105 /* EncryptedDeviceKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E864AE22C0E41F0002D3E0 /* EncryptedDeviceKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +46,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F488DFBA22C0251D00BBC105 /* EncryptedDeviceKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

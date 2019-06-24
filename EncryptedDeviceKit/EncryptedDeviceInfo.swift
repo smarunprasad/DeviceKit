@@ -62,7 +62,6 @@ extension EncryptedDeviceInfo {
     
     //To get the device data in encryped type
     //Call this methode in your class it will return the device in the encripted formate
-    //To decrypt pass the encrypted value to the EncryptedDeviceKit with Key & inputVector values which is used for the encrytion.
     open func getEncryptedCurrentDeviceData(completionBlock: (Data) -> Void, errorBlock: (Error) -> Void) {
         
         do {
@@ -74,6 +73,7 @@ extension EncryptedDeviceInfo {
         }
     }
     
+    //To decrypt pass the encrypted value to the EncryptedDeviceKit with Key & inputVector values which is used for the encrytion.
     open func getDecryptedCurrentDeviceData(encrptedData:Data, completionBlock: (Data) -> Void, errorBlock: (Error) -> Void) {
         
         do {
@@ -143,12 +143,12 @@ extension EncryptedDeviceInfo {
 
 extension EncryptedDeviceInfo: Encrypter {
     
-    open func encryptedDeviceInfo() throws -> Data {
+    public func encryptedDeviceInfo() throws -> Data {
         
         return try crypt(input: self.getDeviceInfo(), operation: CCOperation(kCCEncrypt))
     }
     
-    open func decrypt(_ encrypted: Data) throws -> Data {
+    public func decrypt(_ encrypted: Data) throws -> Data {
         
         return try crypt(input: encrypted, operation: CCOperation(kCCDecrypt))
     }
