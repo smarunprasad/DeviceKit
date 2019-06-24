@@ -38,6 +38,9 @@ public struct Device {
 
 public class EncryptedDeviceInfo {
 
+    public init() {
+        
+    }
     //To get the current device Info
     public func getDeviceInfo(completionHandler: (Device) -> Void) {
         
