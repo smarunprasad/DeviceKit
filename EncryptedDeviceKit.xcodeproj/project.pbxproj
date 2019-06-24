@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4166A8C22C0F8F200934E44 /* EncryptedDeviceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F488DFB022C0251D00BBC105 /* EncryptedDeviceKit.framework */; };
 		F488DFBF22C0251D00BBC105 /* EncryptedDeviceKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488DFBE22C0251D00BBC105 /* EncryptedDeviceKitTests.swift */; };
 		F488DFC122C0251D00BBC105 /* EncryptedDeviceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F488DFB322C0251D00BBC105 /* EncryptedDeviceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F488DFCB22C027DE00BBC105 /* EncryptedDeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488DFCA22C027DE00BBC105 /* EncryptedDeviceInfo.swift */; };
-		F4E864AE22C0E41F0002D3E0 /* EncryptedDeviceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F488DFB022C0251D00BBC105 /* EncryptedDeviceKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4E864AE22C0E41F0002D3E0 /* EncryptedDeviceKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4166A8C22C0F8F200934E44 /* EncryptedDeviceKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +354,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = EncryptedDeviceKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -381,6 +385,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = EncryptedDeviceKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
