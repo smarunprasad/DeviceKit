@@ -12,15 +12,15 @@ import UIKit
 
 public struct Device {
     
-    var name: String?
-    var model: String?
-    var localizedModel: String?
-    var systemName: String?
-    var systemVersion: String?
-    var batteryLevel: String?
-    var isBatteryMonitoringEnabled: Bool?
-    var isProximityMonitoringEnabled: Bool?
-    var isMultitaskingSupported: Bool?
+    public var name: String?
+    public var model: String?
+    public var localizedModel: String?
+    public var systemName: String?
+    public var systemVersion: String?
+    public var batteryLevel: String?
+    public var isBatteryMonitoringEnabled: Bool?
+    public var isProximityMonitoringEnabled: Bool?
+    public var isMultitaskingSupported: Bool?
    
     init(name: String, model: String, localizedModel: String, systemName: String, systemVersion: String, batteryLevel: Float, isBatteryMonitoringEnabled: Bool, isProximityMonitoringEnabled: Bool, isMultitaskingSupported: Bool) {
         
