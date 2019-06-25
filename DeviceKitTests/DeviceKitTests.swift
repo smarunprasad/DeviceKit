@@ -2,9 +2,10 @@
 //  DeviceKitTests.swift
 //  DeviceKitTests
 //
-//  Created by Arunprasat Selvaraj on 23/06/2019.
+//  Created by Arunprasat Selvaraj on 25/06/2019.
 //  Copyright © 2019 Arunprasat Selvaraj. All rights reserved.
 //
+
 
 import XCTest
 @testable import DeviceKit
@@ -15,7 +16,7 @@ class DeviceKitTests: XCTestCase {
     
     override func setUp() {
         
-       
+        
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
@@ -27,7 +28,7 @@ class DeviceKitTests: XCTestCase {
     
     func testGetDeviceInfoMethodeForValidValues() {
         
-    
+        
         device.getDeviceInfo { (device) in
             
             XCTAssertNotNil(device, "device should not be nil")
