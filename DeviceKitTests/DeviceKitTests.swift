@@ -16,7 +16,6 @@ class DeviceKitTests: XCTestCase {
     
     override func setUp() {
         
-        
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
@@ -27,7 +26,6 @@ class DeviceKitTests: XCTestCase {
     }
     
     func testGetDeviceInfoMethodeForValidValues() {
-        
         
         device.getDeviceInfo { (device) in
             
