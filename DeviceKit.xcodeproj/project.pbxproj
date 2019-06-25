@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4166A8C22C0F8F200934E44 /* EncryptedDeviceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F488DFB022C0251D00BBC105 /* EncryptedDeviceKit.framework */; };
-		F488DFBF22C0251D00BBC105 /* EncryptedDeviceKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488DFBE22C0251D00BBC105 /* EncryptedDeviceKitTests.swift */; };
-		F488DFC122C0251D00BBC105 /* EncryptedDeviceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F488DFB322C0251D00BBC105 /* EncryptedDeviceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F488DFCB22C027DE00BBC105 /* EncryptedDeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488DFCA22C027DE00BBC105 /* EncryptedDeviceInfo.swift */; };
+		F4166A8C22C0F8F200934E44 /* DeviceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F488DFB022C0251D00BBC105 /* DeviceKit.framework */; };
+		F488DFBF22C0251D00BBC105 /* DeviceKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488DFBE22C0251D00BBC105 /* DeviceKitTests.swift */; };
+		F488DFC122C0251D00BBC105 /* DeviceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F488DFB322C0251D00BBC105 /* DeviceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F488DFCB22C027DE00BBC105 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488DFCA22C027DE00BBC105 /* DeviceInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,13 +24,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F488DFB022C0251D00BBC105 /* EncryptedDeviceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EncryptedDeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F488DFB322C0251D00BBC105 /* EncryptedDeviceKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptedDeviceKit.h; sourceTree = "<group>"; };
+		F488DFB022C0251D00BBC105 /* DeviceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F488DFB322C0251D00BBC105 /* DeviceKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceKit.h; sourceTree = "<group>"; };
 		F488DFB422C0251D00BBC105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F488DFB922C0251D00BBC105 /* EncryptedDeviceKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncryptedDeviceKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F488DFBE22C0251D00BBC105 /* EncryptedDeviceKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptedDeviceKitTests.swift; sourceTree = "<group>"; };
+		F488DFB922C0251D00BBC105 /* DeviceKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F488DFBE22C0251D00BBC105 /* DeviceKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceKitTests.swift; sourceTree = "<group>"; };
 		F488DFC022C0251D00BBC105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F488DFCA22C027DE00BBC105 /* EncryptedDeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptedDeviceInfo.swift; sourceTree = "<group>"; };
+		F488DFCA22C027DE00BBC105 /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4166A8C22C0F8F200934E44 /* EncryptedDeviceKit.framework in Frameworks */,
+				F4166A8C22C0F8F200934E44 /* DeviceKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +55,8 @@
 		F488DFA622C0251D00BBC105 = {
 			isa = PBXGroup;
 			children = (
-				F488DFB222C0251D00BBC105 /* EncryptedDeviceKit */,
-				F488DFBD22C0251D00BBC105 /* EncryptedDeviceKitTests */,
+				F488DFB222C0251D00BBC105 /* DeviceKit */,
+				F488DFBD22C0251D00BBC105 /* DeviceKitTests */,
 				F488DFB122C0251D00BBC105 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,29 +64,29 @@
 		F488DFB122C0251D00BBC105 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F488DFB022C0251D00BBC105 /* EncryptedDeviceKit.framework */,
-				F488DFB922C0251D00BBC105 /* EncryptedDeviceKitTests.xctest */,
+				F488DFB022C0251D00BBC105 /* DeviceKit.framework */,
+				F488DFB922C0251D00BBC105 /* DeviceKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F488DFB222C0251D00BBC105 /* EncryptedDeviceKit */ = {
+		F488DFB222C0251D00BBC105 /* DeviceKit */ = {
 			isa = PBXGroup;
 			children = (
-				F488DFB322C0251D00BBC105 /* EncryptedDeviceKit.h */,
+				F488DFB322C0251D00BBC105 /* DeviceKit.h */,
 				F488DFB422C0251D00BBC105 /* Info.plist */,
-				F488DFCA22C027DE00BBC105 /* EncryptedDeviceInfo.swift */,
+				F488DFCA22C027DE00BBC105 /* DeviceInfo.swift */,
 			);
-			path = EncryptedDeviceKit;
+			path = DeviceKit;
 			sourceTree = "<group>";
 		};
-		F488DFBD22C0251D00BBC105 /* EncryptedDeviceKitTests */ = {
+		F488DFBD22C0251D00BBC105 /* DeviceKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				F488DFBE22C0251D00BBC105 /* EncryptedDeviceKitTests.swift */,
+				F488DFBE22C0251D00BBC105 /* DeviceKitTests.swift */,
 				F488DFC022C0251D00BBC105 /* Info.plist */,
 			);
-			path = EncryptedDeviceKitTests;
+			path = DeviceKitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,16 +96,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F488DFC122C0251D00BBC105 /* EncryptedDeviceKit.h in Headers */,
+				F488DFC122C0251D00BBC105 /* DeviceKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F488DFAF22C0251D00BBC105 /* EncryptedDeviceKit */ = {
+		F488DFAF22C0251D00BBC105 /* DeviceKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F488DFC422C0251D00BBC105 /* Build configuration list for PBXNativeTarget "EncryptedDeviceKit" */;
+			buildConfigurationList = F488DFC422C0251D00BBC105 /* Build configuration list for PBXNativeTarget "DeviceKit" */;
 			buildPhases = (
 				F488DFAB22C0251D00BBC105 /* Headers */,
 				F488DFAC22C0251D00BBC105 /* Sources */,
@@ -116,14 +116,14 @@
 			);
 			dependencies = (
 			);
-			name = EncryptedDeviceKit;
+			name = DeviceKit;
 			productName = EncryptedDeviceKit;
-			productReference = F488DFB022C0251D00BBC105 /* EncryptedDeviceKit.framework */;
+			productReference = F488DFB022C0251D00BBC105 /* DeviceKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F488DFB822C0251D00BBC105 /* EncryptedDeviceKitTests */ = {
+		F488DFB822C0251D00BBC105 /* DeviceKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F488DFC722C0251D00BBC105 /* Build configuration list for PBXNativeTarget "EncryptedDeviceKitTests" */;
+			buildConfigurationList = F488DFC722C0251D00BBC105 /* Build configuration list for PBXNativeTarget "DeviceKitTests" */;
 			buildPhases = (
 				F488DFB522C0251D00BBC105 /* Sources */,
 				F488DFB622C0251D00BBC105 /* Frameworks */,
@@ -134,9 +134,9 @@
 			dependencies = (
 				F488DFBC22C0251D00BBC105 /* PBXTargetDependency */,
 			);
-			name = EncryptedDeviceKitTests;
+			name = DeviceKitTests;
 			productName = EncryptedDeviceKitTests;
-			productReference = F488DFB922C0251D00BBC105 /* EncryptedDeviceKitTests.xctest */;
+			productReference = F488DFB922C0251D00BBC105 /* DeviceKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -158,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F488DFAA22C0251D00BBC105 /* Build configuration list for PBXProject "EncryptedDeviceKit" */;
+			buildConfigurationList = F488DFAA22C0251D00BBC105 /* Build configuration list for PBXProject "DeviceKit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -170,8 +170,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F488DFAF22C0251D00BBC105 /* EncryptedDeviceKit */,
-				F488DFB822C0251D00BBC105 /* EncryptedDeviceKitTests */,
+				F488DFAF22C0251D00BBC105 /* DeviceKit */,
+				F488DFB822C0251D00BBC105 /* DeviceKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,7 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F488DFCB22C027DE00BBC105 /* EncryptedDeviceInfo.swift in Sources */,
+				F488DFCB22C027DE00BBC105 /* DeviceInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F488DFBF22C0251D00BBC105 /* EncryptedDeviceKitTests.swift in Sources */,
+				F488DFBF22C0251D00BBC105 /* DeviceKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +215,7 @@
 /* Begin PBXTargetDependency section */
 		F488DFBC22C0251D00BBC105 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F488DFAF22C0251D00BBC105 /* EncryptedDeviceKit */;
+			target = F488DFAF22C0251D00BBC105 /* DeviceKit */;
 			targetProxy = F488DFBB22C0251D00BBC105 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -358,7 +358,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = EncryptedDeviceKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DeviceKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -389,7 +389,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = EncryptedDeviceKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DeviceKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,7 +445,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F488DFAA22C0251D00BBC105 /* Build configuration list for PBXProject "EncryptedDeviceKit" */ = {
+		F488DFAA22C0251D00BBC105 /* Build configuration list for PBXProject "DeviceKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F488DFC222C0251D00BBC105 /* Debug */,
@@ -454,7 +454,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F488DFC422C0251D00BBC105 /* Build configuration list for PBXNativeTarget "EncryptedDeviceKit" */ = {
+		F488DFC422C0251D00BBC105 /* Build configuration list for PBXNativeTarget "DeviceKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F488DFC522C0251D00BBC105 /* Debug */,
@@ -463,7 +463,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F488DFC722C0251D00BBC105 /* Build configuration list for PBXNativeTarget "EncryptedDeviceKitTests" */ = {
+		F488DFC722C0251D00BBC105 /* Build configuration list for PBXNativeTarget "DeviceKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F488DFC822C0251D00BBC105 /* Debug */,

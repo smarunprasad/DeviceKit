@@ -1,17 +1,17 @@
 //
-//  EncryptedDeviceKitTests.swift
-//  EncryptedDeviceKitTests
+//  DeviceKitTests.swift
+//  DeviceKitTests
 //
 //  Created by Arunprasat Selvaraj on 23/06/2019.
 //  Copyright © 2019 Arunprasat Selvaraj. All rights reserved.
 //
 
 import XCTest
-@testable import EncryptedDeviceKit
+@testable import DeviceKit
 
-class EncryptedDeviceKitTests: XCTestCase {
+class DeviceKitTests: XCTestCase {
     
-    var device = EncryptedDeviceInfo()
+    var device = DeviceInfo()
     
     override func setUp() {
         
@@ -21,7 +21,7 @@ class EncryptedDeviceKitTests: XCTestCase {
     
     override func tearDown() {
         
-        device = EncryptedDeviceInfo()
+        device = DeviceInfo()
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
     

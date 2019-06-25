@@ -1,6 +1,6 @@
 //
-//  EncryptedDeviceInfo.swift
-//  EncryptedDeviceKit
+//  DeviceInfo.swift
+//  DeviceKit
 //
 //  Created by Arunprasat Selvaraj on 23/06/2019.
 //  Copyright © 2019 Arunprasat Selvaraj. All rights reserved.
@@ -36,7 +36,7 @@ public struct Device {
     }
 }
 
-public class EncryptedDeviceInfo {
+public class DeviceInfo {
 
     public init() {
         

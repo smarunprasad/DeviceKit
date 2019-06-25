@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:EncryptedDeviceKit.xcodeproj">
+      location = "self:/Users/arun/Documents/Arun/FrameWork/EncryptedDeviceKit/DeviceKit.xcodeproj">
    </FileRef>
 </Workspace>
