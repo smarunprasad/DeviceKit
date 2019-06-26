@@ -14,4 +14,6 @@
           let device = DeviceInfo()
           device.getDeviceInfo { (device) in
             //It returns the device model take it what ever you need.
+            Ex:
+            print(device.name)
           }
